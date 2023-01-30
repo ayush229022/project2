@@ -89,6 +89,7 @@
    text-transform: uppercase;
    padding: 5px 3px;
    cursor: pointer;
+   
   }
   li:hover{
    color: #fff;
@@ -113,9 +114,10 @@
   nav{
    font-size: 20px;
    display: flex;
+   text-align: center;
   }
   .nav-2{
-   margin-left: 900px;
+   margin-left: 700px;
    margin-top: 14px;
    position: absolute;
   }
@@ -170,26 +172,29 @@
    width: 100%;
    height: 500px;
    border-radius: 4px;
-   position: relative;
+   position: relative
 }
 p{
    position: absolute;
    font-size: 30px;
    width: 1200px;
    margin-top: 150px;
-   margin-left: 160px;
+   margin-left: 100px;
    font-family: Arial, Helvetica, sans-serif;
+   word-wrap: break-word;
 }
 .aligncenter{
    margin-left: 550px;
    margin-top: 350px;
 }
 .aru{
+   position:relative ;
    width: 100%;
+   padding-left: -20px;
    height: 620px;
-    background-color: rgb(246, 184, 28);
-     position: absolute;
-     border-radius: 4px;
+   background-color: rgb(246, 184, 28);
+   /* position: absolute; */
+   border-radius: 4px;
 }
  .aru img{
    width: 500px;
@@ -247,20 +252,22 @@ p{
   .no-skin{
    width: 100%;
    height: 700px;
+   background-repeat: no-repeat;
   }
   .half-bg{
+   margin-top: -600PX;
    width: 50%;
    height: 800px;
   }
   .size-full{
-   margin-left: 900px;
+   margin-left: 800px;
    margin-top: -650px;
    position: absolute;
   }
   .kh{
    font-size: 20px;
    width: 600px;
-   margin-left: 850px;
+   margin-left: 670px;
    margin-top: -500px;
    word-spacing: 15px;
   }
@@ -296,7 +303,7 @@ p{
       height: 120px;
       margin-left: 560px;
       border-radius: 8px;
-      border: 8px solid red;
+      border: 8px solid rgb(51, 245, 255);
       
    }
    .ooo{
@@ -304,7 +311,7 @@ p{
       height: 120px;
       margin-left: 20px;
       border-radius: 8px;
-      border: 8px solid red;
+      border: 8px solid rgb(59, 203, 232);
    }
    .oooo{width: 120px;
    height: 120px;
@@ -312,7 +319,7 @@ p{
    margin-top: 150px;
    left: 560px;
    border-radius: 8px;
-   border: 8px solid red;
+   border: 8px solid rgb(53, 218, 243);
 }
 .ooooo{
    width: 120px;
@@ -321,7 +328,7 @@ p{
    position: absolute;
    left: 717px;
    border-radius: 8px;
-   border: 8px solid red;
+   border: 8px solid rgb(58, 232, 254);
 }
 .ff{
    width: 120px;
@@ -330,7 +337,7 @@ p{
    margin-top: 300px;
    left: 560px;
    border-radius: 8px;
-   border: 8px solid red;
+   border: 8px solid rgb(55, 207, 241);
 }
 .og{
    width: 120px;
@@ -339,7 +346,7 @@ p{
    margin-top: 300px;
    left: 717px;
    border-radius: 6px;
-   border: 8px solid red;
+   border: 8px solid rgb(0, 221, 255);
 
 }
 .qq img:hover{

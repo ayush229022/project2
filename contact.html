@@ -25,6 +25,7 @@ body, input, textarea, a{
 #section-wrapper{
     width: 100%;
     padding: 10px;
+    margin;
 }
 .box-wrapper{
     position: relative;
@@ -192,9 +193,76 @@ body, input, textarea, a{
         margin: 10px 0px;
     }
 }
+ /* nav */
+ .aaa{
+ background: #42f58d;
+ width: 100%;
+ height: 70px;
+ margin-top: -15px;
+ border-radius: 5px;
+}
+  
+ li{ 
+ position:relative;
+ display: inline-block;
+ font-size: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 8px 8px 8px 8px;
+ text-transform: uppercase;
+ padding: 5px 3px;
+ cursor: pointer;
+ 
+}
+li:hover{
+ color: #fff;
+ background-color: #8a20d6;
+ border-radius: 4px;
+ border: 1px solid gray;
+ box-shadow: 1px 2px 30px ;
+ cursor: pointer;
+}
+h1{
+ position:relative;
+color: #fff;
+margin-top:8px;
+position: absolute;
+margin-left: 80px;
+font-size: 45px;
+text-shadow: 1px 2px 30px rgba(0,0,0,0.562);
+}
+h1:hover{
+ color: white;
+} 
+nav{
+ font-size: 20px;
+ display: flex;
+ text-align: center;
+}
+.nav-2{
+ margin-left: 700px;
+ margin-top: 14px;
+ position: absolute;
+}
     </style>
 </head>
 <body>
+    <div class="aaa">
+        <h1>Wild life</h1>     
+        <div class="nav">
+           <ul class="nav-2">
+               <li class="active"><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="">catogary</a>
+                        <!-- <ul class="drop">  -->
+                       <!-- <li><a href="">a</a></li> -->
+                       <!-- <li><a href="">h</a></li> -->
+                       <!-- <li><a href="">c</a></li> -->
+                   <!-- </ul>  -->
+               </li>
+               <li><a href="contact.html">Contact</a></li>
+               <li><a href="log.html">Sign in</a></li>
+           </ul>
+       </div>
     <section id="section-wrapper">
         <div class="box-wrapper">
             <div class="info-wrap">

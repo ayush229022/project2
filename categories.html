@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1b9bff;
+}
+.container2{
+    display: flex;
+    width: 1000px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container2 .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0.0,0,0.5);
+}
+.container2 .box .imgbx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container2 .box .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.container2 .box:hover .imgbx img{
+    opacity: 0;
+}
+.container2 .box .content{
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: #fff;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.container2 .box:hover .content{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.container2 .box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.container2 .box .content p{
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+}
+.container2 .box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+    </style>
+</head>
+<body>
+    <div class="body">
+        <div class="container2">
+            <div class="box">
+                <div class="imgbx">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Carnivore-lion.jpg/1280px-Carnivore-lion.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>HARNIVORUS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quibusdam at molestiae iure temporibus nihil incidunt fugit quis quidem! Rerum vero dolore veniam sunt numquam beatae assumenda fugit repellendus vel?
+                    Omnis neque provident consequuntur illum labore accusantium culpa aperiam eius eaque necessitatibus officia fugiat iusto rerum minima, ipsa maiores commodi eveniet dolores tenetur reprehenderit fugit! Nemo aliquid quaerat nobis incidunt!
+                    Enim, a omnis error cumque fugit rem provident incidunt quae odit labore laborum unde.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="https://drbillspetnutrition.com/wp-content/uploads/2017/01/1.-Health-Benefits.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>CARNIVORUS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quibusdam at molestiae iure temporibus nihil incidunt fugit quis quidem! Rerum vero dolore veniam sunt numquam beatae assumenda fugit repellendus vel?
+                    Omnis neque provident consequuntur illum labore accusantium culpa aperiam eius eaque necessitatibus officia fugiat iusto rerum minima, ipsa maiores commodi eveniet dolores tenetur reprehenderit fugit! Nemo aliquid quaerat nobis incidunt!
+                    Enim, a omnis error cumque fugit rem provident incidunt quae odit labore laborum unde.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgbx">
+                    <img src="https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/09/12084114/omnivore.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>OMNIVORUS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quibusdam at molestiae iure temporibus nihil incidunt fugit quis quidem! Rerum vero dolore veniam sunt numquam beatae assumenda fugit repellendus vel?
+                    Omnis neque provident consequuntur illum labore accusantium culpa aperiam eius eaque necessitatibus officia fugiat iusto rerum minima, ipsa maiores commodi eveniet dolores tenetur reprehenderit fugit! Nemo aliquid quaerat nobis incidunt!
+                    Enim, a omnis error cumque fugit rem provident incidunt quae odit labore laborum unde.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
